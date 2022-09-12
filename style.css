@@ -730,7 +730,8 @@ footer span a:hover{
 }
 .button_div a {
 border: 2px crimson solid;
-width: 30%;
+width: 5rem;
+height: 2.4rem;
 text-align: center;
 margin-top: 2px;
 padding: 3px;
@@ -781,5 +782,41 @@ text-align: justify;
 padding-top: 5px;
 padding-left: 25px;
 padding-right: 25px;
+}
+
+.project_ka_div{
+    display: flex;
+}
+
+
+@media (max-width: 900px) {
+ .project_ka_div{
+    display: block;
+ }
+ .products_img{
+ width:100%;
+ height: auto;
+  
+    
+ }
+ .project_div{
+    width: 100%;
+    margin: auto;
+ }
+
+}
+@media (max-width:400px){
+    .project_div{
+        width: 100%;
+        margin: auto;
+     }
+
+     .olx_div_3{
+        display: none;
+     }
+     .button_div{
+        height: auto;
+        width: auto;
+     }
 }
 
