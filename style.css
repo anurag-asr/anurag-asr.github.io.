@@ -27,7 +27,7 @@ html{
 }
 
 .about{
-     background-color:rgb(247, 242, 242)
+     background-color:rgb(247, 242, 242); 
     
 }
 /* all similar content styling codes */
@@ -69,7 +69,7 @@ section .title{
 }
 section .title::before{
     content: "";
-    position: absolute;
+    position: relative;
     bottom: 0px;
     left: 50%;
     width: 180px;
@@ -107,7 +107,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: rgb(82, 77, 77);
     font-size: 35px;
     font-weight: 600;
 }
@@ -260,11 +260,11 @@ section .title::after{
     background: rgb(113, 112, 112);
     color: white;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 1px solid crimson;
+    border: 1px solid black;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
@@ -339,7 +339,7 @@ section .title::after{
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 1px solid crimson;
+    border: 1px solid black;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
@@ -739,7 +739,7 @@ background-color: rgb(113, 112, 112);
 }
 .button_div a:hover{
     background-color: whitesmoke;
-    border:1 px gray crimson;
+    border:1 px gray black;
     color: rgb(69, 69, 69);
 }
 .olx_div{
@@ -961,9 +961,9 @@ padding-right: 25px;
  
 }
 .box>img{
-    width: 160px;
-    border-radius: 50%;
-    border: 5px gray solid;
+    width: 120px;
+    border-radius: 100%;
+    border: 7px gray solid;
 }
 
 @media (max-width:720px){
